@@ -1,7 +1,7 @@
 import path from 'path';
 // 静态引入策略模块
-import * as magicNumbersStrategy from './strategies/magic-numbers.js';
-import * as vueSplitStrategy from './strategies/vue-split.js';
+import * as magicNumbersStrategy from './magic-numbers.js';
+import * as vueSplitStrategy from './vue-split.js';
 
 // 解析命令行参数
 const args = process.argv.slice(2);
